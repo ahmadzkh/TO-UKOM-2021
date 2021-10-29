@@ -1,0 +1,625 @@
+CRITICAL - 2021-10-29 19:13:50 --> Undefined variable $user
+#0 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-29 19:14:15 --> Illegal offset type
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-29 19:14:23 --> Too few arguments to function App\Models\UserModel::getUser(), 0 passed in C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php on line 23 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(23): App\Models\UserModel->getUser()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-29 19:15:20 --> Too few arguments to function App\Models\UserModel::getUser(), 0 passed in C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php on line 26 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(26): App\Models\UserModel->getUser()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-29 19:15:28 --> Illegal offset type
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-29 19:15:44 --> Illegal offset type
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-29 19:16:43 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-29 19:18:14 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4_invent\app\Views\dashboard\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(28): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 19:18:27 --> Attempt to read property "nama" on array
+#0 C:\xampp\htdocs\ci4_invent\app\Views\dashboard\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(28): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 19:18:40 --> Undefined array key "nama"
+#0 C:\xampp\htdocs\ci4_invent\app\Views\dashboard\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(28): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 19:18:58 --> Undefined variable $user
+#0 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-29 19:20:08 --> Call to undefined method App\Models\UserModel::getAll
+#0 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(26): CodeIgniter\Model->__call('getAll', Array)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-29 19:20:19 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Model.php on line 720
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get('nama')
+#1 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(26): CodeIgniter\Model->__call('get', Array)
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-29 19:20:29 --> Call to undefined method App\Models\UserModel::count
+#0 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(26): CodeIgniter\Model->__call('count', Array)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-29 19:23:18 --> Class "App\Controllers\StokModel" not found
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-29 19:26:59 --> Undefined variable $slug
+#0 C:\xampp\htdocs\ci4_invent\app\Models\UserModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(32): App\Models\UserModel->getUser()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-29 19:30:05 --> syntax error, unexpected token "===", expecting ")"
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-29 19:30:13 --> syntax error, unexpected token "==", expecting ")"
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-29 19:32:22 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-10-29 19:32:52 --> Unknown column 'USR20001' in 'where clause'
+CRITICAL - 2021-10-29 19:32:52 --> Unknown column 'USR20001' in 'where clause'
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT * FROM u...')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\ci4_invent\app\Models\UserModel.php(55): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(32): App\Models\UserModel->getUser()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 19:33:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(32): App\Models\UserModel->getUser()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-10-29 19:34:22 --> Unknown column 'USR20001' in 'where clause'
+CRITICAL - 2021-10-29 19:34:22 --> Unknown column 'USR20001' in 'where clause'
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT * FROM u...')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\ci4_invent\app\Models\UserModel.php(55): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(32): App\Models\UserModel->getUser()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-10-29 19:34:29 --> Unknown column 'USR20001' in 'where clause'
+CRITICAL - 2021-10-29 19:34:29 --> Unknown column 'USR20001' in 'where clause'
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT * FROM u...')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\ci4_invent\app\Models\UserModel.php(55): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(32): App\Models\UserModel->getUser()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-10-29 19:35:01 --> Table 'db_inventaris_rpla_1920_02_ahmadzakyhumami.invents' doesn't exist
+CRITICAL - 2021-10-29 19:35:01 --> Table 'db_inventaris_rpla_1920_02_ahmadzakyhumami.invents' doesn't exist
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1457): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->countAll()
+#5 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(34): CodeIgniter\Model->__call('countAll', Array)
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-29 19:35:27 --> Table 'db_inventaris_rpla_1920_02_ahmadzakyhumami.invents' doesn't exist
+CRITICAL - 2021-10-29 19:35:27 --> Table 'db_inventaris_rpla_1920_02_ahmadzakyhumami.invents' doesn't exist
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1457): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->countAll()
+#5 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(34): CodeIgniter\Model->__call('countAll', Array)
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-29 19:35:45 --> Table 'db_inventaris_rpla_1920_02_ahmadzakyhumami.invent' doesn't exist
+CRITICAL - 2021-10-29 19:35:45 --> Table 'db_inventaris_rpla_1920_02_ahmadzakyhumami.invent' doesn't exist
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1457): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->countAll()
+#5 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(34): CodeIgniter\Model->__call('countAll', Array)
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-29 19:35:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4_invent\app\Views\dashboard\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(38): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 19:36:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4_invent\app\Views\dashboard\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(38): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 19:36:32 --> Undefined array key "nama"
+#0 C:\xampp\htdocs\ci4_invent\app\Views\dashboard\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(38): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 19:36:45 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4_invent\app\Views\dashboard\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(38): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 19:37:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(32): App\Models\UserModel->getUser()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-29 19:37:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(32): App\Models\UserModel->getUser()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-29 19:38:05 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(38): view('dashboard/index', Array)
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-29 19:38:15 --> Attempt to read property "nama" on array
+#0 C:\xampp\htdocs\ci4_invent\app\Views\dashboard\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(38): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 19:38:21 --> syntax error, unexpected integer "0", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#2 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(38): view('dashboard/index', Array)
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-29 19:39:07 --> Call to a member function first() on array
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-29 19:50:35 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4_invent\app\Views\dashboard\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(38): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 19:55:41 --> Call to undefined method App\Models\InventModel::countInvent
+#0 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(34): CodeIgniter\Model->__call('countInvent', Array)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-10-29 19:55:55 --> Unknown column 'total_barang' in 'field list'
+CRITICAL - 2021-10-29 19:55:55 --> Unknown column 'total_barang' in 'field list'
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT SUM(tota...')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(tota...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(tota...')
+#3 C:\xampp\htdocs\ci4_invent\app\Models\InventModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT SUM(tota...')
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(34): App\Models\InventModel->countInvent()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-10-29 19:56:49 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2021-10-29 19:56:49 --> Unknown column 'id_user' in 'where clause'
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT SUM(jml_...')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(jml_...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(jml_...')
+#3 C:\xampp\htdocs\ci4_invent\app\Models\InventModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT SUM(jml_...')
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(34): App\Models\InventModel->countInvent()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 19:58:20 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4_invent\app\Views\dashboard\index.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(38): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 20:39:00 --> Class "App\Controllers\SumberModel" not found
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-29 20:57:44 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#2 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(46): view('dashboard/index', Array)
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-29 21:03:00 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-29 21:03:06 --> Undefined array key "getSource"
+#0 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-29 21:09:25 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(47): view('dashboard/index', Array)
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-29 21:20:01 --> Undefined property: stdClass::$keterangan
+#0 C:\xampp\htdocs\ci4_invent\app\Views\dashboard\index.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(48): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 22:06:45 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#2 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(49): view('dashboard/index', Array)
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-29 22:07:00 --> Undefined property: stdClass::$gambar
+#0 C:\xampp\htdocs\ci4_invent\app\Views\dashboard\index.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(49): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 22:07:07 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#2 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(49): view('dashboard/index', Array)
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-29 23:11:17 --> syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('layout/template', Array, true)
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(49): view('dashboard/index', Array)
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-29 23:16:03 --> Undefined variable $countStok
+#0 C:\xampp\htdocs\ci4_invent\app\Views\dashboard\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(66): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->myinvent()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 23:16:51 --> Invalid file: myinvent/index.php
+#0 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('myinvent/index....')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('myinvent/index', Array, true)
+#2 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(66): view('myinvent/index', Array)
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->myinvent()
+#4 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-29 23:22:54 --> Undefined property: stdClass::$id_supplier
+#0 C:\xampp\htdocs\ci4_invent\app\Views\myinvent\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('myinvent/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(66): view('myinvent/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->myinvent()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 23:25:31 --> Undefined property: stdClass::$id_supplier
+#0 C:\xampp\htdocs\ci4_invent\app\Views\myinvent\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('myinvent/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(66): view('myinvent/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->myinvent()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 23:25:54 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\ci4_invent\app\Views\myinvent\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('myinvent/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(66): view('myinvent/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->myinvent()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 23:26:16 --> Undefined property: stdClass::$alamat_supplier
+#0 C:\xampp\htdocs\ci4_invent\app\Views\myinvent\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('myinvent/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(66): view('myinvent/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->myinvent()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 23:31:43 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+#0 C:\xampp\htdocs\ci4_invent\app\Views\myinvent\index.php(31): date_format('2021-06-23', 'Y/m/d H:i:s')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('myinvent/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(66): view('myinvent/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->myinvent()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 23:31:55 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+#0 C:\xampp\htdocs\ci4_invent\app\Views\myinvent\index.php(31): date_format('2021-06-23', 'Y/m/d')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('myinvent/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(66): view('myinvent/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->myinvent()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-29 23:32:36 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+#0 C:\xampp\htdocs\ci4_invent\app\Views\myinvent\index.php(31): date_format('2021-06-09', 'Y/m/d')
+#1 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('myinvent/index', Array, true)
+#4 C:\xampp\htdocs\ci4_invent\app\Controllers\Home.php(66): view('myinvent/index', Array)
+#5 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->myinvent()
+#6 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_invent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_invent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
