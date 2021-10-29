@@ -163,12 +163,12 @@ body{
 
 .main{
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     top: 0;
     left: 250px;
     width: calc(100% - 250px);
-    min-height: 100vh;
-    background: whitesmoke;
+    height: auto;
+    background: transparent;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -212,12 +212,12 @@ body{
 }
 
 .content{
-    z-index: 1;
     position: absolute;
+    width: calc(100% - 250px);
     top: 60px;
     left: 250px;
     padding: 10px;
-    transition-property: left;
+    transition-property: left, width;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -227,6 +227,7 @@ body{
 
 .content.active{
     left: 60px;
+    width: calc(100% - 60px);
 }
 
 

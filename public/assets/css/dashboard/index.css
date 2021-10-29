@@ -1,0 +1,22 @@
+.dashboard{
+    background: white;
+}
+
+.dashboard a span{
+    color: #7333FF;
+}
+
+.title{
+    font-size: 16px;
+}
+
+.iconic{
+    opacity: 0.6;
+    font-size: 30px;
+    color: #7333FF;
+}
+
+.btn-purple{
+    background: #7333FF;
+    color: whitesmoke;
+}
