@@ -36,22 +36,23 @@
                         </span>
                     </a>
                 </li>
-                <li class="item">
-                    <a href="#" class="text-decoration-none">
+                <li class="item dashboard">
+                    <a href="/dashboard" class="text-decoration-none">
                         <span class="icon"><i class="fas fa-desktop"></i></span>
                         <span class="title">
                             Dashboard
                         </span>
                     </a>
                 </li>
-                <li class="item">
-                    <a href="#" class="text-decoration-none">
+                <li class="item invent">
+                    <a href="/my-invent" class="text-decoration-none">
                         <span class="icon"><i class="fas fa-inbox"></i></span>
                         <span class="title">
                             My Inventory
                         </span>
                     </a>
                 </li>
+                <?php if (session()->level === "U01") : ?>
                 <li class="item users" onclick="dropdownUsers();">
                     <a href="#" class="text-decoration-none menu-btn" id="item" data-bs-toggle="dropdown" role="button"
                         aria-expanded="false">
@@ -80,7 +81,7 @@
                         aria-expanded="false">
                         <span class="icon"><i class="fas fa-box"></i></span>
                         <span class="title">
-                            Items
+                            Stuff
                         </span>
                     </a>
                     <div class="sub-menu">
@@ -98,6 +99,7 @@
                         </a>
                     </div>
                 </li>
+                <?php endif; ?>
             </ul>
         </div>
         <!-- End Sidebar -->

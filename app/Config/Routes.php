@@ -21,7 +21,7 @@ $routes->setDefaultController('Home');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
-$routes->setAutoRoute(true);
+$routes->setAutoRoute(false);
 
 /*
  * --------------------------------------------------------------------
@@ -41,6 +41,7 @@ $routes->post('/users/post-user', 'UserController::store');
 $routes->get('/logout', 'AuthController::logout', ['filter' => 'AuthCheck']);
 
 $routes->get('/dashboard', 'Home::index', ['filter' => 'AuthCheck']);
+$routes->get('/my-invent', 'Home::myinvent', ['filter' => 'AuthCheck']);
 
 /*
  * --------------------------------------------------------------------

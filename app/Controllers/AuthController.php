@@ -66,8 +66,9 @@ class AuthController extends BaseController
             $data = [
                 'logged_in' => true,
                 'nama' => $user->nama,
+                'username' => $user->username,
                 'level' => $user->level,
-                'username' => $user->username
+                'id_user' => $user->id_user
             ];
 
             session()->set($data);

@@ -4,17 +4,17 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class UserModel extends Model
+class PinjamModel extends Model
 {
     protected $DBGroup              = 'default';
-    protected $table                = 'user';
-    protected $primaryKey           = 'id_user';
+    protected $table                = 'pinjam_barang';
+    protected $primaryKey           = 'id';
     protected $useAutoIncrement     = true;
     protected $insertID             = 0;
     protected $returnType           = 'array';
     protected $useSoftDeletes       = false;
     protected $protectFields        = true;
-    protected $allowedFields        = ['id_user', 'nama', 'username', 'password', 'level'];
+    protected $allowedFields        = ['id_pinjam', 'peminjam', 'tgl_pinjam', 'barang_pinjam', 'jml_pinjam', 'tgl_kembali', 'kondisi'];
 
     // Dates
     protected $useTimestamps        = false;
@@ -40,19 +40,23 @@ class UserModel extends Model
     protected $beforeDelete         = [];
     protected $afterDelete          = [];
 
-    public function getUser($id = false)
+    public function getInvent()
     {
         $db = \Config\Database::connect();
         $id = session()->id_user;
 
-        if ($id === false) {
-            $query = $db->query("SELECT * FROM $this->table");
-            $query = $query->getResultArray();
+        $query = $db->query("SELECT * FROM $this->table WHERE peminjam = '$id'");
+        $query = $query->getResultArray();
 
-            return $query;
-        }
+        return $query;
+    }
 
-        $query = $db->query("SELECT * FROM $this->table WHERE id_user = '$id'");
+    public function countInvent()
+    {
+        $db = \Config\Database::connect();
+        $id = session()->id_user;
+
+        $query = $db->query("SELECT SUM(jml_pinjam) AS my_invent FROM $this->table WHERE peminjam = '$id'");
         $query = $query->getResultArray();
 
         return $query;
