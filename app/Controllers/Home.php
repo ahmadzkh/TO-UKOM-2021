@@ -59,7 +59,7 @@ class Home extends BaseController
         $data = [
             'title' => 'UKOM | My Invent',
             'countInvent' => $this->inventModel->asObject()->countInvent(),
-            'getInvent' => $this->inventModel->asObject()->findAll(),
+            'getInvent' => $this->inventModel->asObject()->getInvent(),
         ];
         
         // dd($source);

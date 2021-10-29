@@ -48,6 +48,7 @@ class PinjamModel extends Model
         $query = $db->query("SELECT * FROM $this->table WHERE peminjam = '$id'");
         $query = $query->getResultArray();
 
+        // dd($query);
         return $query;
     }
 
