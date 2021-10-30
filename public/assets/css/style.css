@@ -72,6 +72,23 @@ body{
     background: #7333FF;
 }
 
+.navigation ul .item .sub-menu a span{
+    font-size: 16px;
+    max-height: 60px;
+    left: 0;
+    transition-property: left;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.navigation.active ul .item .sub-menu a span{
+    left: -15px;
+    max-height: 60px;
+}
+
 .navigation ul .item:hover{
     background: white;
 }
@@ -121,7 +138,7 @@ body{
     min-width: 60px;
     height: 60px;
     line-height: 60px;
-    text-align: center;
+    margin-left: 10px;
 }
 
 .navigation.active ul .item .title{
@@ -139,11 +156,11 @@ body{
     box-shadow: 0 0 5px 0 black;
 }
 
-.navigation ul .items.active{
+.navigation ul .stuff.active{
     max-height: 200px;
 }
 
-.navigation ul .items.active #item{
+.navigation ul .stuff.active #item{
     z-index: 2;
     background: white;
     color: #7333FF;
