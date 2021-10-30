@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\UserModel;
 use App\Models\BarangModel;
+use App\Models\BarangLogModel;
 use App\Models\StokModel;
 use App\Models\PinjamModel;
 use App\Models\SumberModel;
@@ -47,7 +48,7 @@ class Home extends BaseController
         ];
         
         // dd($source);
-        return view('dashboard/index', $data);
+        return view('pages/index', $data);
     }
 
     public function myinvent()
@@ -63,6 +64,19 @@ class Home extends BaseController
         ];
         
         // dd($source);
-        return view('myinvent/index', $data);
+        return view('pages/myinvent/index', $data);
+    }
+
+    public function act()
+    {
+        $log = new BarangLogModel();
+
+        $data = [
+            'title' => 'UKOM | Log Activity',
+            'log' => $log->orderBy('waktu_event', 'DESC')->paginate(10, 'barang_log'),
+            'pager' => $log->pager
+        ];
+
+        return view('pages/actlog', $data);
     }
 }

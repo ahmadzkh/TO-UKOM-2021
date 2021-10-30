@@ -19,6 +19,15 @@ class UserController extends BaseController
     
     public function index()
     {
-        //
+        $data = [
+            'title' => 'UKOM | Users',
+            'users' => $this->userModel->orderBy('level', 'ASC')->paginate(10, 'user'),
+            'countUsers' => $this->userModel->countAll(),
+            'pager' => $this->userModel->pager,
+        ];
+
+        // dd($data['users']);
+
+        return view('pages/users/index', $data);
     }
 }

@@ -19,7 +19,6 @@
     <title><?= $title; ?></title>
 
     <!-- My CSS -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
@@ -44,43 +43,55 @@
                         </span>
                     </a>
                 </li>
+                <?php if (session()->level === "U01" || session()->level === "U02") : ?>
+                <li class="item log">
+                    <a href="/dashboard/act-log" class="text-decoration-none">
+                        <span class="icon"><i class="fas fa-cogs"></i></span>
+                        <span class="title">
+                            Log
+                        </span>
+                    </a>
+                </li>
+                <?php endif; ?>
+                <?php if (session()->level === "U03") : ?>
                 <li class="item invent">
-                    <a href="/my-invent" class="text-decoration-none">
+                    <a href="/dashboard/my-invent" class="text-decoration-none">
                         <span class="icon"><i class="fas fa-inbox"></i></span>
                         <span class="title">
                             My Inventory
                         </span>
                     </a>
                 </li>
+                <?php endif; ?>
                 <?php if (session()->level === "U01") : ?>
                 <li class="item users" onclick="dropdownUsers();">
                     <a href="#" class="text-decoration-none menu-btn" id="item" data-bs-toggle="dropdown" role="button"
                         aria-expanded="false">
-                        <span class="icon"><i class="fas fa-users"></i></span>
-                        <span class="title">
+                        <span class="icon active"><i class="fas fa-users"></i></span>
+                        <span class="title active">
                             Users
                         </span>
                     </a>
                     <div class="sub-menu">
-                        <a href="#" class="text-decoration-none dropdown-item">
+                        <a href="/dashboard/users" class="text-decoration-none dropdown-item">
                             <span class="icon"><i class="fas fa-list"></i></span>
                             <span class="title">
                                 List Users
                             </span>
                         </a>
                         <a href="#" class="text-decoration-none dropdown-item">
-                            <span class="icon"><i class="fas fa-list"></i></span>
+                            <span class="icon"><i class="fas fa-user-plus"></i></span>
                             <span class="title">
                                 Add Users
                             </span>
                         </a>
                     </div>
                 </li>
-                <li class="item items" onclick="dropdownItems();">
+                <li class="item stuff" onclick="dropdownItems();">
                     <a href="#" class="text-decoration-none menu-btn" id="item" data-bs-toggle="dropdown" role="button"
                         aria-expanded="false">
-                        <span class="icon"><i class="fas fa-box"></i></span>
-                        <span class="title">
+                        <span class="icon active"><i class="fas fa-boxes"></i></span>
+                        <span class="title active">
                             Stuff
                         </span>
                     </a>
@@ -88,13 +99,13 @@
                         <a href="#" class="text-decoration-none dropdown-item">
                             <span class="icon"><i class="fas fa-list"></i></span>
                             <span class="title">
-                                List Items
+                                List Stuff
                             </span>
                         </a>
                         <a href="#" class="text-decoration-none dropdown-item">
-                            <span class="icon"><i class="fas fa-list"></i></span>
+                            <span class="icon"><i class="fas fa-box-open"></i></span>
                             <span class="title">
-                                Add Items
+                                Add Stuff
                             </span>
                         </a>
                     </div>
@@ -119,7 +130,10 @@
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                             <li><a class="dropdown-item" href="#"><i class="fas fa-user-circle me-3"></i> My Profile</a>
                             </li>
-                            <li><a class="dropdown-item" href="#"><i class="fas fa-inbox me-3"></i> My Invent</a></li>
+                            <?php if (session()->level === "U03") : ?>
+                            <li><a class="dropdown-item" href="/my-invent"><i class="fas fa-inbox me-3"></i> My
+                                    Invent</a></li>
+                            <?php endif; ?>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -171,7 +185,7 @@
         }
 
         function dropdownItems() {
-            let items = document.querySelector('.items');
+            let items = document.querySelector('.stuff');
 
             items.classList.toggle('active');
         }

@@ -23,7 +23,7 @@ class AuthController extends BaseController
     public function login()
     {
         $data = [
-            'title' => 'UKOM | Login Apps',
+            'title' => 'UKOM | Login',
             'validation' => \CodeIgniter\Services::validation()
         ];
 
