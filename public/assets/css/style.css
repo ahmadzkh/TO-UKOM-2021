@@ -156,11 +156,11 @@ body{
     box-shadow: 0 0 5px 0 black;
 }
 
-.navigation ul .stuff.active{
-    max-height: 200px;
+.navigation ul .stuffs.active{
+    max-height: 300px;
 }
 
-.navigation ul .stuff.active #item{
+.navigation ul .stuffs.active #item{
     z-index: 2;
     background: white;
     color: #7333FF;
