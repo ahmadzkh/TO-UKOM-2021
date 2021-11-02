@@ -79,7 +79,7 @@
                                 List Users
                             </span>
                         </a>
-                        <a href="#" class="text-decoration-none dropdown-item">
+                        <a href="/dashboard/users/create" class="text-decoration-none dropdown-item">
                             <span class="icon"><i class="fas fa-user-plus"></i></span>
                             <span class="title">
                                 Add Users
@@ -87,25 +87,31 @@
                         </a>
                     </div>
                 </li>
-                <li class="item stuff" onclick="dropdownItems();">
+                <li class="item stuffs" onclick="dropdownItems();">
                     <a href="#" class="text-decoration-none menu-btn" id="item" data-bs-toggle="dropdown" role="button"
                         aria-expanded="false">
                         <span class="icon active"><i class="fas fa-boxes"></i></span>
                         <span class="title active">
-                            Stuff
+                            Stuffs
                         </span>
                     </a>
                     <div class="sub-menu">
-                        <a href="#" class="text-decoration-none dropdown-item">
+                        <a href="/dashboard/stuffs" class="text-decoration-none dropdown-item">
                             <span class="icon"><i class="fas fa-list"></i></span>
                             <span class="title">
-                                List Stuff
+                                List Stuffs
                             </span>
                         </a>
-                        <a href="#" class="text-decoration-none dropdown-item">
+                        <a href="/dashboard/stuffs/create" class="text-decoration-none dropdown-item">
                             <span class="icon"><i class="fas fa-box-open"></i></span>
                             <span class="title">
-                                Add Stuff
+                                Add Stuffs
+                            </span>
+                        </a>
+                        <a href="/dashboard/stuffs/create" class="text-decoration-none dropdown-item">
+                            <span class="icon"><i class="fas fa-box-open"></i></span>
+                            <span class="title">
+                                Add Stock
                             </span>
                         </a>
                     </div>
@@ -185,7 +191,7 @@
         }
 
         function dropdownItems() {
-            let items = document.querySelector('.stuff');
+            let items = document.querySelector('.stuffs');
 
             items.classList.toggle('active');
         }

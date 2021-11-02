@@ -92,7 +92,7 @@
 <div class="row no-gutters justify-content-around">
     <?php foreach ($getBarang as $barang) : ?>
     <div class="col-auto mb-3">
-        <div class="card shadow" style="width: 20rem;">
+        <div class="card shadow" style="width: 18rem;">
             <img src="/assets/img/<?= $barang->gambar; ?>" class="card-img-top" alt="img">
             <div class="card-body">
                 <h5 class="card-title"><?= $barang->nama_barang; ?></h5>

@@ -48,6 +48,24 @@ $routes->get('/dashboard/act-log', 'Home::act', ['filter' => 'AuthCheck']);
  * Users
  */
 $routes->get('/dashboard/users', 'UserController::index', ['filter' => 'AuthCheck']);
+$routes->get('/dashboard/users/create', 'UserController::create', ['filter' => 'AuthCheck']);
+$routes->post('/dashboard/users/store', 'UserController::store', ['filter' => 'AuthCheck']);
+$routes->get('/dashboard/users/edit/(:alphanum)', 'UserController::edit/$1', ['filter' => 'AuthCheck']);
+$routes->post('/dashboard/users/update/(:alphanum)', 'UserController::update/$1', ['filter' => 'AuthCheck']);
+$routes->DELETE('/dashboard/users/delete/(:alphanum)', 'UserController::delete/$1', ['filter' => 'AuthCheck']);
+
+/**
+ * Stuffs
+ */
+$routes->get('/dashboard/stuffs', 'BarangController::index', ['filter' => 'AuthCheck']);
+$routes->get('/dashboard/stuffs/create', 'BarangController::create', ['filter' => 'AuthCheck']);
+$routes->post('/dashboard/stuffs/store', 'BarangController::store', ['filter' => 'AuthCheck']);
+$routes->get('/dashboard/stuffs/edit/(:alphanum)', 'BarangController::edit/$1', ['filter' => 'AuthCheck']);
+$routes->post('/dashboard/stuffs/update/(:alphanum)', 'BarangController::update/$1', ['filter' => 'AuthCheck']);
+$routes->DELETE('/dashboard/stuffs/delete/(:alphanum)', 'BarangController::delete/$1', ['filter' => 'AuthCheck']);
+
+$routes->get('/dashboard/stuffs/add-stock/(:alphanum)', 'StokController::edit/$1', ['filter' => 'AuthCheck']);
+$routes->post('/dashboard/stuffs/add-stock/update/(:alphanum)', 'StokController::store/$1', ['filter' => 'AuthCheck']);
 
 /*
  * --------------------------------------------------------------------

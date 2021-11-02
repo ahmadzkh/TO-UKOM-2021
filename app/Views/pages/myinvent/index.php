@@ -1,6 +1,6 @@
 <?= $this->extend('layout/template'); ?>
 <?= $this->section('content'); ?>
-<link rel="stylesheet" href="/assets/css/myinvent.css">
+<link rel="stylesheet" href="/assets/css/dashboard/myinvent.css">
 
 <div class="row">
     <div class="col">
